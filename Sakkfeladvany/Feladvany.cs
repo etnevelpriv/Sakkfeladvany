@@ -1,5 +1,9 @@
 ﻿class Feladvany
 {
+    public int MegoldasSorszama;
+    private int OszlopokSzama;
+    private int SorokSzama;
+    private int[,] Tabla;
     public void MegoldasokKeresese(int kiralynoSora)
     {
         // Ezt a metódust nem kell módosítania!
