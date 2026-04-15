@@ -42,7 +42,7 @@ class Feladvany
         {
             for (int j = 0; j < OszlopokSzama; j++)
             {
-
+                Console.Write(Tabla[i, j]);
             }
             Console.WriteLine();
         }
@@ -72,7 +72,9 @@ class Feladvany
         while (jobbra < SorokSzama && felulre >= 0)
         {
             if (Tabla[jobbra, felulre] == 1)
+            {
                 return false;
+            }
             jobbra++;
             felulre--;
         }

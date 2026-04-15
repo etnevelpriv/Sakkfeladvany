@@ -34,6 +34,11 @@
             }
 
             Feladvany feladvany = new Feladvany(sorok, oszlopok);
+            feladvany.MegoldasokKeresese(0);
+            if (feladvany.MegoldasSorszama == 0)
+            {
+                Console.WriteLine("Nincs megoldás");
+            }
         }
     }
 }
